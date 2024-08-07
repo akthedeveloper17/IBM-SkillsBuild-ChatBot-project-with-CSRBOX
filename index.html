@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Skill Developer</title>
+    <link rel="icon" href="images/logo.jpg" type="image/icon type" sizes="50x50">
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <style>
+body {
+     background-image:url(images/tech.gif) ;
+            
+        }
+        
+nav{
+    float: left;
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+    height: 90px;
+    
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #aaa;
+    font-size:large;
+    margin-top: 30%;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
+        
+        .jumbotron{
+            background-color: transparent;
+        }
+
+        .content {
+            padding: 20px;
+            color: whitesmoke;
+        }
+        .menu-section {
+            background-color: transparent;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px red(0, 0, 0, 0.1);
+        }
+        
+        .menu-section:hover{
+            background-image: url();
+        }
+
+        .menu-item img {
+            width: 260px;
+            height: 200px;
+            border-radius: 5px;
+        }
+
+        .menu-item img:hover {
+            transform: scale(1.2);
+        }
+
+        .menu-item a{
+            background-color: black;
+            color:aqua;
+        }
+
+
+        .menu-item a:hover {
+            background-image: url(images/buttonhover.png);
+            color: black;
+            border-color:chartreuse;
+            transform: scale(1.2);
+        }
+
+        footer {
+            background-color:#333;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "3772f20f-5e19-4c79-a1de-13d6386212ed", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "3a16809e-9b86-4975-84b5-549783e6eab0", // The ID of your service instance.
+          onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+
+    <div class="bg-div">
+        <img class="logo-img" src="images/logo.jpg" width="100" height="90" ALT="align box" ALIGN=CENTER>
+        <nav>
+            <ul>
+                
+                <li><a href="#">Home</a></li>
+                <li><a href="#courses">Our Courses</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/Codindskill_developer-Banner.png" alt="codingskillloading" style="width:100%;">
+          </div>
+    
+          <div class="item">
+            <img src="images/helloworld.gif" alt="helloworld" style="width:100%;">
+          </div>
+        
+          <div class="item">
+            <img src="images/codingrepeat.gif" alt="CodingSkillDeveloper" style="width:100%; border-color: aqua;">
+          </div>
+        </div>
+    
+        
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    <div class="container content" id="courses">
+        <h2>Our Courses</h2>
+        <div class="menu-section">
+            <h3>Development Courses</h3>
+            <div class="row">
+                <div class="col-md-3 menu-item">
+                    <img src="images/SDLC.gif" alt="Software Development Life Cycle Course">
+                    <h4>Software Development Life Cycle<h4>
+                    <p>Certification Price: ₹4000</p>
+                    <a class="btn btn-dark" href="https://youtu.be/9PgZCJNzY9M?si=ztSPmp0K5EsreOq3" role="button" target="_blank">Preview Watch Now</a>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <img src="images/web-dev-gif.gif" alt="Web Development">
+                    <h4>Web Development</h4>
+                    <p>Certification Price: ₹5000</p>
+                    <a class="btn btn-dark" href="https://youtu.be/Q33KBiDriJY?si=xH-0jC_Dgsocgq7_" role="button" target="_blank">Preview Watch Now</a>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <img src="images/full stack.gif" alt="Full Stack">
+                    <h4>Full Stack </h4>
+                    <p>Certification Price: ₹8000</p>
+                    <a class="btn btn-dark" href="https://www.youtube.com/live/YLpCPo0FDtE?si=vGUfexYnF0dLaRGm" role="button" target="_blank">Preview Watch Now</a>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <img src="images/app_development.gif" alt="App Development">
+                    <h4>App Development</h4>
+                    <p>Certification Price: ₹10000</p>
+                    <a class="btn btn-dark" href="https://youtu.be/fis26HvvDII?si=eE8in2qIEeCV8hXI" role="button"target="_blank">Preview Watch Part 1 Now</a>
+                    <a class="btn btn-dark" href="https://youtu.be/RcSHAkpwXAQ?si=RnkDGnUpw4eut37l" role="button" target="_blank">Preview Watch Part 2 Now</a>
+                </div>
+            </div>
+            <h3>Programming Courses</h3>
+            <div class="row">
+                <div class="col-md-3 menu-item">
+                    <img src="images/Data-Structures-and-Algorithms-.gif" alt="Data Structures ">
+                    <h4>Data Structures</h4>
+                    <p>Certification Price: ₹3000</p>
+                    <a class="btn btn-dark" href="https://youtu.be/RBSGKlAvoiM?si=nG638FGSZrqqd1Mc" role="button" target="_blank">Preview Watch Now</a>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <img src="images/java.gif" alt="OOPS in JAVA">
+                    <h4>JAVA Programming</h4>
+                    <p>Certification Price: ₹6000</p>
+                    <a class="btn btn-dark" href="https://youtu.be/xk4_1vDrzzo?si=P3SeOxuKjF8O7mjf" role="button" target="_blank">Preview Watch Now</a>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <img src="images/C sharp.gif" alt="C# Programming">
+                    <h4>C# Programming</h4>
+                    <p>Price: ₹6500</p>
+                    <a class="btn btn-dark" href="https://youtu.be/YrtFtdTTfv0?si=8NQ9E38h09kfKKBj" role="button" target="_blank">Preview Watch Now</a>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <img src="images/ruby.gif" alt="Ruby Programming">
+                    <h4>Ruby Programming</h4>
+                    <p>Price: ₹7000</p>
+                    <a class="btn btn-dark" href="https://youtu.be/t_ispmWmdjY?si=DHY1BMePgyuE74Pc" role="button" target="_blank">Preview Watch Now</a>
+                </div>
+            </div>
+            <h3>Main Course</h3>
+            <div class="row">
+                <div class="col-md-3 menu-item">
+                    <img src="images/data analytics.webp" alt="Data Analytics">
+                    <h4>Data Analytics</h4>
+                    <p>Price: ₹150000</p>
+                    <a class="btn btn-dark" href="https://youtu.be/ZUdlc5LsmHA?si=Fqqjtweg-WEHY15-" role="button" target="_blank">Watch Preview Now</a>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <img src="images/cybersecurity.gif" alt="Cyber Security">
+                    <h4>Cyber Security</h4>
+                    <p>Price: ₹180000</p>
+                    <a class="btn btn-dark" href="https://youtu.be/WfWMJiPh48k?si=AU3sikEv5Vmp7JLg" role="button" target="_blank">Watch Preview Now</a>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <img src="images/ethical-hacking.gif" alt="Ethical Hacking">
+                    <h4>Ethical Hacking</h4>
+                    <p>Price: ₹280000</p>
+                    <a class="btn btn-dark" href="https://youtu.be/fNzpcB7ODxQ?si=eRaI7XOAAWDqwbvi" role="button" target="_blank">Watch Preview Now</a>
+                </div>
+                <div class="col-md-3 menu-item">
+                    <img src="images/AIML.gif" alt="Artificial Intelligence and Machine Learning">
+                    <h4>Artificial Intelligence and Machine Learning</h4>
+                    <p>Price: ₹450000</p>
+                    <a class="btn btn-dark" href="https://www.youtube.com/live/wnqkfpCpK1g?si=PYdz0fmT7NLUT7Mi" role="button" target="_blank">Watch Preview Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container content" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Coding Skill Developer<br>
+            At Coding Skill Developer, we believe that the future of technology is in the hands of innovators and thinkers who can harness the power of code to create, disrupt, and transform. Our mission is to empower individuals with the skills and knowledge they need to succeed in the ever-evolving tech landscape.
+            <br>
+            <br>
+            Our Story<br>
+            In today's digital age, technology is advancing at an unprecedented pace. The demand for skilled professionals who can keep up with this pace is skyrocketing. However, we realized that there was a significant gap in the availability of quality educational resources that catered to the diverse needs of aspiring tech enthusiasts. This is where Coding Skill Developer comes in – a comprehensive online platform dedicated to providing top-notch courses and training programs in programming, development, and other IT-related fields.
+            <br>
+            <br>
+            Our Vision<br>
+            Our vision is to become the go-to destination for anyone looking to acquire the skills and expertise needed to excel in the tech industry. We strive to create a community of learners who are passionate about coding, innovation, and progress. Our goal is to bridge the gap between education and industry, providing our students with the tools, resources, and support they need to succeed in their careers.
+            <br>
+            <br>
+            What We Offer<br>
+            Comprehensive Courses: Our extensive library of courses covers a wide range of topics, including programming languages, web development, mobile app development, cybersecurity, data science, and more.
+            Expert Instructors: Our courses are taught by industry experts who have years of experience in their respective fields. They provide guidance, mentorship, and support to ensure that our students receive the best possible education.
+            Hands-on Training: We believe that learning by doing is the best way to acquire new skills. Our courses include hands-on exercises, projects, and assignments that help students apply theoretical concepts to real-world problems.
+            Career Support: Our dedicated career support team helps students navigate the job market, providing resume building, interview preparation, and job placement assistance.
+            <br>
+            <br>
+            Why Choose Us?<br>
+            Flexible Learning: Our online platform allows students to learn at their own pace, anytime, and from anywhere.
+            Affordable Pricing: We offer competitive pricing and flexible payment plans to make high-quality education accessible to everyone.
+            Community Support: Our community of learners, instructors, and mentors provides a supportive and motivating environment that fosters growth and success.
+            <br>
+            <br>
+            Join Our Community<br>
+            At Coding Skill Developer, we're passionate about empowering individuals with the skills and knowledge they need to succeed in the tech industry. Join our community today and start building the skills you need to shape the future of technology.
+            <br>
+            <br>
+            Get Started<br>
+            Browse our courses, meet our instructors, and start learning today. We can't wait to see what you create!</p>
+    </div>
+
+    <div class="container content" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@CodingSkillDeveloper.com</p>
+        <p>Phone: +91 9821639396</p>
+        <p>Address: Coding Skill Developer, DLF Cyber City, Gurugram, India</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Coding Skill Developer. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
