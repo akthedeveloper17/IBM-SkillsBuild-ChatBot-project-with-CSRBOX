@@ -6,6 +6,15 @@ Tools Used: HTML, CSS, JavaScript, IBM Watson Assistant (via IBM SkillsBuild)
 <img width="1173" height="642" alt="image" src="https://github.com/user-attachments/assets/0bc189ce-5aa7-4ec8-8e99-a00fce5be00a" />
   <figcaption> Codey Assistant </figcaption>
 
+<img width="1206" height="643" alt="image" src="https://github.com/user-attachments/assets/1f2652da-2cf9-46fe-8c4a-032b0a825a16" />
+<figcaption> Codey Assistant replying about courses </figcaption>
+
+<img width="1174" height="645" alt="image" src="https://github.com/user-attachments/assets/cfaf75fa-9ae5-4fcd-939e-8dc33d0a4359" />
+<figcaption> Codey Assistant suggesting other courses </figcaption>
+
+<img width="1192" height="648" alt="image" src="https://github.com/user-attachments/assets/19e6384a-747a-46df-8b4c-314ee62c3f35" />
+<figcaption> Codey Assistant providing other course as per selection </figcaption>
+
 🌐 Project Overview:
 As part of my IBM internship training, I successfully built and deployed a fully functional AI Assistant chatbot on a professional educational website, Coding Skill Developer. This AI Assistant, named Codey, is developed using IBM Watson Assistant, integrated into a custom-built front-end web application to serve as a virtual guide for learners.
 
